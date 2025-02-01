@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join snwy</title>
+    <style>
+        body {
+            background-color: #a8d8ff; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .box {
+            background-color: #8ac7e2; /* Slightly darker blue for the box */
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .box h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .discord-icon {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        /* Snowflakes styling */
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            pointer-events: none;
+            font-size: 24px;
+            color: white;
+            animation: fall 10s linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -10px;
+            }
+            100% {
+                top: 100%;
+            }
+        }
+
+        /* Snowflakes that fall randomly */
+        .snowflake:nth-child(odd) {
+            animation-duration: 12s;
+        }
+        
+        .snowflake:nth-child(even) {
+            animation-duration: 8s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Join snwy</h1>
+        <a href="https://discord.gg/9ws79MWWPU" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Discord_logo_2021.svg" alt="Discord" class="discord-icon">
+        </a>
+    </div>
+
+    <!-- Snowflakes -->
+    <div class="snowflake" style="left: 10%; animation-duration: 15s;"></div>
+    <div class="snowflake" style="left: 20%; animation-duration: 10s;"></div>
+    <div class="snowflake" style="left: 30%; animation-duration: 12s;"></div>
+    <div class="snowflake" style="left: 40%; animation-duration: 18s;"></div>
+    <div class="snowflake" style="left: 50%; animation-duration: 14s;"></div>
+    <div class="snowflake" style="left: 60%; animation-duration: 16s;"></div>
+    <div class="snowflake" style="left: 70%; animation-duration: 20s;"></div>
+    <div class="snowflake" style="left: 80%; animation-duration: 22s;"></div>
+    <div class="snowflake" style="left: 90%; animation-duration: 25s;"></div>
+
+</body>
+</html>
