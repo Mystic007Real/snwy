@@ -21,17 +21,24 @@
         .box {
             background-color: #8ac7e2; /* Slightly darker blue for the box */
             border-radius: 15px;
-            padding: 30px;
+            padding: 50px 30px; /* Increased padding for larger box */
             text-align: center;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
             position: relative;
             z-index: 1;
+            width: 300px; /* Set fixed width for box */
         }
 
         .box h1 {
             font-size: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             color: white; /* Ensure title text is white */
+        }
+
+        .box p {
+            font-size: 18px;
+            color: white; /* Ensure Mystic007 text is white */
+            margin-top: 10px;
         }
 
         .discord-icon {
@@ -40,13 +47,13 @@
             cursor: pointer;
         }
 
-        /* Snowflakes styling */
+        /* Snowflakes styling (dots) */
         .snowflake {
             position: absolute;
             top: -10px;
             pointer-events: none;
-            font-size: 24px;
-            color: white; /* White snowflakes */
+            font-size: 10px; /* Smaller dots */
+            color: white; /* White dots */
             animation: fall 10s linear infinite;
         }
 
@@ -75,18 +82,19 @@
         <a href="https://discord.gg/9ws79MWWPU" target="_blank">
             <img src="https://cdn3.emoji.gg/emojis/7561-discord-clyde.png" class="discord-icon" alt="discord_clyde">
         </a>
+        <p>Mystic007</p> <!-- Added Mystic007 under the Join snwy text -->
     </div>
 
-    <!-- Snowflakes -->
-    <div class="snowflake" style="left: 10%; animation-duration: 15s;">❄️</div>
-    <div class="snowflake" style="left: 20%; animation-duration: 10s;">❄️</div>
-    <div class="snowflake" style="left: 30%; animation-duration: 12s;">❄️</div>
-    <div class="snowflake" style="left: 40%; animation-duration: 18s;">❄️</div>
-    <div class="snowflake" style="left: 50%; animation-duration: 14s;">❄️</div>
-    <div class="snowflake" style="left: 60%; animation-duration: 16s;">❄️</div>
-    <div class="snowflake" style="left: 70%; animation-duration: 20s;">❄️</div>
-    <div class="snowflake" style="left: 80%; animation-duration: 22s;">❄️</div>
-    <div class="snowflake" style="left: 90%; animation-duration: 25s;">❄️</div>
+    <!-- Snowflakes (dots) -->
+    <div class="snowflake" style="left: 10%; animation-duration: 15s;">.</div>
+    <div class="snowflake" style="left: 20%; animation-duration: 10s;">.</div>
+    <div class="snowflake" style="left: 30%; animation-duration: 12s;">.</div>
+    <div class="snowflake" style="left: 40%; animation-duration: 18s;">.</div>
+    <div class="snowflake" style="left: 50%; animation-duration: 14s;">.</div>
+    <div class="snowflake" style="left: 60%; animation-duration: 16s;">.</div>
+    <div class="snowflake" style="left: 70%; animation-duration: 20s;">.</div>
+    <div class="snowflake" style="left: 80%; animation-duration: 22s;">.</div>
+    <div class="snowflake" style="left: 90%; animation-duration: 25s;">.</div>
 
 </body>
 </html>
